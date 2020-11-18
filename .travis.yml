@@ -1,7 +1,5 @@
 language: python
 sudo: false
-- name: PyCharm Python Security Scanner
-  uses: tonybaloney/pycharm-security@1.20.1
 cache:
   directories:
     - $HOME/.cache/pip
